@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Element</title>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form class="create_elemnt">
+      <input
+        class="create_elemnt__input"
+        placeholder="newElement"
+        type="text"
+        required
+      />
+      <input type="submit" value="Add" class="create_elemnt__btn" />
+      <input type="checkbox" id="disabled" class="disabled" />
+      <label for="disabled">Readonly</label>
+    </form>
+    <ul class="element_list"></ul>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
